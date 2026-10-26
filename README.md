@@ -12,7 +12,7 @@ Co-developed by **aefirestone** and **Gemini** as an open-source experimental ho
 
 | Platform / Player | Memory / Heap Profile | Status | Notes |
 | :--- | :--- | :--- | :--- |
-| **CyberLink PowerDVD** | `2 / 2 MB RAM` \| `32 MB Max Heap`  ✅ **Perfect** | Runs perfectly with full rendering, audio, and menu navigation. |
+| **CyberLink PowerDVD** | `2 / 2 MB RAM` \| `32 MB Max Heap` | ✅ **Perfect** | Runs perfectly with full rendering, audio, and menu navigation. |
 | **PS4 (Blu-ray App)** | `6 / 16 MB RAM` \| `23 MB Max Heap` | 🟡 **Needs Polish** | Game runs but missing slot symbol grapghics (SLOTS.png). |
 | **Philips BDP1502/F7A** | `1-2 / 2 MB RAM` \| `16 MB Max Heap` | 🟡 **Needs Polish** | Severe input lag when navigating with the remote control. |
 | **Sony BDP-S6700** | `1-2 / 2 MB RAM` \| `16 MB Max Heap` | 🟡 **Needs Polish** | Event handling functional; occasional remote contention with background system events. |
