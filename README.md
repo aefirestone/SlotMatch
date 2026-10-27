@@ -8,25 +8,28 @@ Co-developed by **aefirestone** and **Gemini** as an open-source experimental ho
 
 ---
 
-## 📊 Hardware Compatibility & Status
+## 📊 Hardware Compatibility & Status*
 
 | Platform / Player | Memory / Heap Profile | Status | Notes |
 | :--- | :--- | :--- | :--- |
 | **CyberLink PowerDVD** | `2 / 2 MB RAM` \| `32 MB Max Heap` | ✅ **Perfect** | Runs perfectly with full rendering, audio, and menu navigation. |
-| **PS4 (Blu-ray App)** | `6 / 16 MB RAM` \| `23 MB Max Heap` | 🟡 **Needs Polish** | Game runs but missing slot symbol grapghics (SLOTS.png). |
+| **PS4 (Blu-ray App)** | `6 / 16 MB RAM` \| `23 MB Max Heap` | 🟡 **Needs Polish** | Game runs but missing slot symbol graphics (SLOTS.png). |
 | **Philips BDP1502/F7A** | `1-2 / 2 MB RAM` \| `16 MB Max Heap` | 🟡 **Needs Polish** | Severe input lag when navigating with the remote control. |
-| **Sony BDP-S6700** | `1-2 / 2 MB RAM` \| `16 MB Max Heap` | 🟡 **Needs Polish** | Event handling functional; occasional remote contention with background system events. |
-| **Sony BDP-S390** | *Hardware Specs Pending* | ❌ **Known Issue** | Suffers from black screen with audio |
+| **Sony BDP-S6700** | `1-2 / 2 MB RAM` \| `16 MB Max Heap` | 🟡 **Needs Polish** | Severe input lag when navigating with the remote control. |
+| **Sony BDP-S390** | *Hardware Specs N/A* | ❌ **Known Issue** | Black screen with audio |
+| **Seikou¹** | *Hardware Specs N/A* | ❌ **Known Issue** | Black screen with audio |
+| **VLC¹** | *Hardware Specs N/A* | ❌ **Known Issue** | Cannot launch game due to being stuck in a broken/cropped menu screen / missing "background.jpg" |
 
 ---
-All of these players' firmware has been up to date.
+*All of these players' firmware has been up to date. 
+¹VLC and Seikou are community made Blu-ray emulators based on the libbluray project, may not be 100% accurate with BD specs
 
 ## 🛠 Known Issues & Areas for Contribution
 
 We pushed the code as far as we could within the constraints of standard Java 1.3 / BD-J profiles, but a few hurdles remain open for the community to tackle:
 
-1. **Black Screen (BDP-S390):** Older Sony firmware profiles experience a blank rendering surface while audio continues to stream, pointing to a graphics plane compositing mismatch. (A hunch)
-2. **Audio Playlist Fallback:** While multi-track audio initialization is structured for playlists `00000`–`00004`, strict standalone hardware players occasionally default to stream `00000` if secondary `.mpls` index tables aren't explicitly verified by the authoring tool.
+1. **Black Screen (BDP-S390/Seikou):** Some players experience a blank screen while audio continues to stream, pointing to a graphics plane compositing mismatch.
+2. **Audio Playlist Fallback:** Could not make multi-track audio playlists to work `00000`–`00004`, strict standalone hardware players occasionally default to stream `00000` if secondary `.mpls` index tables aren't explicitly verified by the authoring tool.
 3. **Memory Garbage Collection:** Extended play sessions on lower-spec hardware may require tighter tracking of temporary image buffers during cascade matches.
 4. **Optimization:** The game was intenteded to play on the weakest Blu-ray player new and old.
 
