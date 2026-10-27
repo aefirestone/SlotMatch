@@ -16,6 +16,13 @@ Co-developed by **aefirestone** and **Gemini** as an open-source experimental ho
 4. **Colored Buttons** Using your remote, press 🟩 to reveal a hint, and press 🟨 to turn off music anytime.
 
 ---
+## 🛠 How to Build
+
+The Blu-ray platform isn't easy program and build, but I made a tutorial on how to build your own simple Xlet
+(https://www.blu-ray.org.uk/p/how-to-code-and-compile-your-bd-j.html)
+All you have to worry about is writing/compiling/signing Java code (other files can be left alone), just be aware that BD-J uses Java 1.3 not modern Java!
+
+---
 
 ---
 
