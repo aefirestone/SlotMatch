@@ -5,12 +5,12 @@ A simple and fun 1080p tile-matching puzzle game built for the Blu-ray platform 
 Co-developed by **aefirestone** and **Gemini** as an open-source experimental homebrew project.
 
 <p align="center">
-  <a href=""><img src= "https://raw.githubusercontent.com/aefirestone/SlotMatch/refs/heads/main/SlotMatch_screenshot.jpg" alt="Play in browser"></a>
+  <a><img src= "https://raw.githubusercontent.com/aefirestone/SlotMatch/refs/heads/main/SlotMatch_screenshot.jpg" alt="Play in browser"></a>
 </p>
 
 ## 🕹 Features
 
-1. **Simple Gameplay:** Nothing too fancy, similar to the original Bejewled, match the slot symbols to earn points and reach your highest score.
+1. **Simple Gameplay:** Nothing too fancy, simple match-3 gameplay with a slot-machine theme, match the symbols to score points and chase high scores.
 2. **1080p Graphics:** Nice 2D graphics in full HD
 3. **LPCM audio:** Listen to Eric Matyas' background music during gameplay
 4. **Colored Buttons** Using your remote, press 🟩 to reveal a hint, and press 🟨 to turn off music anytime.
@@ -18,11 +18,11 @@ Co-developed by **aefirestone** and **Gemini** as an open-source experimental ho
 ---
 ## 🛠 How to Build
 
-The Blu-ray platform isn't easy to program and build, but I made a tutorial on how to build your own simple Xlet
-(https://www.blu-ray.org.uk/p/how-to-code-and-compile-your-bd-j.html)
-All you have to worry about is writing/compiling/signing Java code (other files can be left alone), just be aware that BD-J uses Java 1.3 not modern Java!
+The Blu-ray (BD-J) platform is not straightforward to develop for. I wrote a tutorial on building a simple Xlet here:  
+[How to code and compile your BD-J](https://www.blu-ray.org.uk/p/how-to-code-and-compile-your-bd-j.html)
 
----
+You mainly need to write, compile, and sign the Java code (other disc files can usually stay as-is).  
+**Important:** BD-J uses Java 1.3, not modern Java.
 
 ---
 
