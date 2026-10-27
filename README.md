@@ -54,7 +54,7 @@ Contributions, bug fixes, and hardware test reports are more than welcome! Wheth
 
 This project is open-source under the **MIT License**. See the [LICENSE](LICENSE) file for details.
 
-Borrowed additional class files (all located in the 'engine' directory) from BluBird BD-J game. Copyright 2018 - 2021 Disc Quest
+Borrowed additional class files (all located in the 'engine' directory) from BluBird BD-J game. Copyright 2018 - 2021 Disc Quest (See LICENSE.md)
 
 Music by Eric Matyas
 [www.soundimage.org](https://soundimage.org/puzzle-music/)
